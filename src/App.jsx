@@ -5,11 +5,15 @@ import Section3 from './Components/section3/Section3'
 import Section4 from './Components/section4/Section4'
 import Section5 from './Components/section5/Section5'
 import Section6 from './Components/section6/Section6'
+import Usecard from './Components/section1/Usecard'
+import { image, img } from 'framer-motion/client'
+import Navbar from './Components/section1/Navbar'
 
 
 const App = () => {
   return (
     <div style={{ width: "100%", margin: 0, padding: 0, display: "block", overflowX: "hidden" }}>
+      <Navbar/>
       <Section1/>
       <Section2/>
       <Section3/>
