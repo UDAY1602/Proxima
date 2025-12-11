@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const cards = [
   {
     id: 1,
-    src: "https://imgs.search.brave.com/zsy6kO5a7yFQ1dWimi02Ug2SsxUtkCgLpStbiFgjM3c/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQ1/ODg5NDEwNi9waG90/by9jYXQtcG9ydHJh/aXQuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPXpSVnZZM3Ey/SEJDSXY2U0tVY1pD/cDJZakVtU2dyM1Y2/cHR5bmlZejg3SXc9",
+    src: "https://static.vecteezy.com/system/resources/thumbnails/024/569/685/small/empty-space-background-with-cat-illustration-ai-generative-free-photo.jpg",
     title: "Analytics",
     text: "Get real-time insights into your data.",
   },
@@ -16,19 +16,19 @@ const cards = [
   },
   {
     id: 3,
-    src: "https://imgs.search.brave.com/rRePzRaxEbCu3WCJkzTgwfsTcpXdpuTl0Oa7-omM92Y/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2tw/aG90by5jb20vaWQvNDk3/MzE1Mjc4L3Bob3Rv/L3R3by1mcmllbmRs/eS1jYXRzLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1uN0Zu/bjlTQlpORUpQS0l0/Z0F0bHlsLXVHWnhR/MWVua0hYTXJ2UV9L/Tk5RPQ",
+    src: "https://thumbs.dreamstime.com/b/stylish-tabby-cat-dressed-miniature-police-uniform-complete-hat-sunglasses-sits-city-street-s-serious-377913058.jpg",
     title: "Security",
     text: "Enterprise-grade security for your apps.",
   },
   {
     id: 4,
-    src: "https://picsum.photos/seed/catlove/1200/900?blur=1",
+    src: "https://thumbs.dreamstime.com/b/photo-paws-several-cats-center-symbolizing-teamwork-315044363.jpg",
     title: "Integrations",
     text: "Connect with tools you already use.",
   },
   {
     id: 5,
-    src: "https://picsum.photos/seed/catxyz/1300/850",
+    src: "https://felineengineering.com/wp-content/uploads/2019/12/Cat-Smacking-Another-Cat-1024x710.jpg",
     title: "Support",
     text: "24/7 support for your team.",
   },
