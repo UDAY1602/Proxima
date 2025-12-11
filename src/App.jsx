@@ -12,7 +12,7 @@ import Navbar from './Components/section1/Navbar'
 
 const App = () => {
   return (
-    <div>
+    <div style={{ width: "100%", margin: 0, padding: 0, display: "block", overflowX: "hidden" }}>
       <Navbar/>
       <Section1/>
       <Section2/>
