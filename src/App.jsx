@@ -9,7 +9,7 @@ import Section6 from './Components/section6/Section6'
 
 const App = () => {
   return (
-    <div>
+    <div style={{ width: "100%", margin: 0, padding: 0, display: "block", overflowX: "hidden" }}>
       <Section1/>
       <Section2/>
       <Section3/>
