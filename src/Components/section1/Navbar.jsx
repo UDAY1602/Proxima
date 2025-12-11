@@ -5,8 +5,8 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      // You can tweak the 50 value if you want it to shrink earlier/later
-      if (window.scrollY > 50) {
+      
+      if (window.scrollY > 100) {
         setIsScrolled(true);
       } else {
         setIsScrolled(false);
@@ -25,13 +25,13 @@ const Navbar = () => {
     >
       <nav className="max-w-6xl mx-auto px-4 flex items-center justify-between">
         {/* Logo */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 ">
           <div className="w-8 h-8 rounded-full bg-black" />
           <span
-            className={`font-semibold tracking-tight transition-all duration-300
-            ${isScrolled ? "text-lg" : "text-2xl"}
+            className={`font-semibold tracking-tight transition-all duration-300 
+            ${isScrolled ? "text-lg" : "text-5xl"}
           `}
-          >
+          > 
             ProximaTech
           </span>
         </div>
@@ -43,27 +43,27 @@ const Navbar = () => {
         `}
         >
           <li>
-            <a href="#home" className="hover:text-blue-600">
+            <a href="#home" className="hover:text-blue-600 rounded-full px-3 py-3 bg-black text-white">
               Home
             </a>
           </li>
           <li>
-            <a href="#about" className="hover:text-blue-600">
+            <a href="#about" className="hover:text-blue-600 rounded-full px-3 py-3 bg-black text-white">
               About
             </a>
           </li>
           <li>
-            <a href="#services" className="hover:text-blue-600">
+            <a href="#services" className="hover:text-blue-600 rounded-full px-3 py-3 bg-black text-white">
               Services
             </a>
           </li>
           <li>
-            <a href="#projects" className="hover:text-blue-600">
+            <a href="#projects" className="hover:text-blue-600 rounded-full px-3 py-3 bg-black text-white">
               Projects
             </a>
           </li>
           <li>
-            <a href="#contact" className="hover:text-blue-600">
+            <a href="#contact" className="hover:text-blue-600 rounded-full px-3 py-3 bg-black text-white">
               Contact
             </a>
           </li>

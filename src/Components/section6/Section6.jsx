@@ -109,13 +109,13 @@ const styles = {
   companyName: {
     fontSize: "30px",
     fontWeight: "700",
-    color: "#76ff7b",
+    color: "white",
     marginBottom: "10px",
   },
 
   companyDesc: {
     fontSize: "14px",
-    color: "#fefbfbdb",
+    color: "white",
     lineHeight: "1.6",
     marginBottom: "18px",
   },

@@ -115,11 +115,11 @@ const Section5 = () => {
 const styles = {
   wrapper: {
     width: "100%",
-    background: "#76ff7b",
+    background: "white",
     padding: "40px 20px",
     boxSizing: "border-box",
-    display: "block", // prevent body flex interference
-    overflowX: "hidden", // ensures no scroll
+    display: "block", 
+    overflowX: "hidden", 
   },
 
   card: {
@@ -130,7 +130,7 @@ const styles = {
     padding: "30px",
     margin: "0 auto",
     display: "flex",
-    flexWrap: "wrap", // responsive
+    flexWrap: "wrap", 
     justifyContent: "space-between",
     gap: "20px",
     boxSizing: "border-box",
